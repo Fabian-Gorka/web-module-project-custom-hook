@@ -4,4 +4,4 @@ const useDarkMode = (key) => {
     const [someValue, setSomeValue] = useLocalStorage(key, false)
     return [someValue, setSomeValue];
 };
-export default useDarkMode; 
+export default useDarkMode;
